@@ -7,4 +7,5 @@ function draw(){
   // add your drawing code here ...
   fill (200, 200, 20)
   ellipse (100, 50, 50)
+  rect(0,350,600)
 }
