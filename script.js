@@ -3,12 +3,26 @@ function setup(){
 }
 
 function draw(){
-  background(200);
+  background(0, 120, 200);
   // add your drawing code here ...
-  fill (200, 200, 20)
-  ellipse (100, 50, 50)
-  rect(0,250,600)
-  rect (200,275,100)
-  Triangle (300, 275, 100, 300)?
-  Triangle (45, 340, 10)?
+  fill (200, 170, 50)
+  ellipse (75, 70, 70)
+  fill (0, 200, 20)
+  ellipse (399, 200, 100, 200)
+  ellipse (450, 150, 60, 30)
+  ellipse (465, 130, 35, 80)
+  ellipse (325, 190, 80, 40)
+  ellipse (300, 160, 40, 100)
+  fill (200, 150, 50)
+  rect(0,270,600)
+  fill (30, 100, 50)
+  rect (150,290,170,80)
+  triangle(75, 335, 150, 290, 150, 370)
+  arc(185, 360, 30, 50, TWO_PI, PI)
+  arc(200, 360, 30, 50, TWO_PI, PI)
+  arc(265, 360, 30, 50, TWO_PI, PI)
+  arc(280, 360, 30, 50, TWO_PI, PI)
+triangle(499, 335, 320, 370, 320, 290)
+fill (0, 0, 0)
+ellipse (110, 325, 10)
 }
